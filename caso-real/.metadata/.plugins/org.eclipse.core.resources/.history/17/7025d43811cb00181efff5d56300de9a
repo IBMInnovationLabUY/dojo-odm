@@ -1,0 +1,25 @@
+# Vocabulary Properties
+uuid = 87a7babe-6a8b-4c23-b456-c28eada699bd
+
+# Auto
+Auto#concept.label = auto
+Auto.año#phrase.action = cambiar el año {this, PARTITIVE_ARTICLE} a {año}
+Auto.año#phrase.navigation = {año} {this, PARTITIVE_ARTICLE}
+Auto.matricula#phrase.action = cambiar la matricula {this, PARTITIVE_ARTICLE} a {matricula}
+Auto.matricula#phrase.navigation = {matricula} {this, PARTITIVE_ARTICLE}
+Auto.modelo#phrase.action = cambiar el modelo {this, PARTITIVE_ARTICLE} a {modelo}
+Auto.modelo#phrase.navigation = {modelo} {this, PARTITIVE_ARTICLE}
+
+# Siniestro
+Siniestro#concept.label = siniestro
+Siniestro.idSiniestro#phrase.action = cambiar la id siniestro {this, PARTITIVE_ARTICLE} a {id siniestro}
+Siniestro.idSiniestro#phrase.navigation = {id siniestro} {this, PARTITIVE_ARTICLE}
+Siniestro.tipoSiniestro#phrase.action = cambiar el tipo siniestro {this,PARTITIVE_ARTICLE} a {tipo siniestro}
+Siniestro.tipoSiniestro#phrase.navigation = {tipo siniestro} {this,PARTITIVE_ARTICLE}
+
+# Taller
+Taller#concept.label = taller
+Taller.id_taller#phrase.action = cambiar la id taller {this, PARTITIVE_ARTICLE} a {id taller}
+Taller.id_taller#phrase.navigation = {id taller} {this, PARTITIVE_ARTICLE}
+Taller.nivel_seguridad#phrase.action = cambiar el nivel seguridad {this, PARTITIVE_ARTICLE} a {nivel seguridad}
+Taller.nivel_seguridad#phrase.navigation = {nivel seguridad} {this, PARTITIVE_ARTICLE}

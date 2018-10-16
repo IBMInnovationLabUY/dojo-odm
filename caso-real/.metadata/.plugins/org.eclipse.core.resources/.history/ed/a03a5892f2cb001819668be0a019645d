@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="despliegue_flujo" managingXom="true">
+  <name>despliegue_flujo</name>
+  <uuid>21c04e09-50bc-4b88-8dc1-360c7450a8d4</uuid>
+  <versionPolicies label="Incrementar los números de versión secundaria" ruleset="INCREMENT_MINOR" default="true" recurrent="true">
+    <description><![CDATA[Actualiza la versión secundaria para cada conjunto de reglas. Hace que la nueva versión esté disponible pero conserva las versiones anteriores.]]></description>
+  </versionPolicies>
+  <versionPolicies label="Utilizar los números de versión base" recurrent="true">
+    <description><![CDATA[Utiliza los números proporcionados en la configuración de despliegue. Sustituye la versión más reciente de cada conjunto de reglas con este release. Se utiliza para arreglos dinámicos o desarrollo.]]></description>
+  </versionPolicies>
+  <versionPolicies label="El usuario puede definir los números de versión" ruleset="MANUAL" recurrent="true">
+    <description><![CDATA[Le permite especificar sus propios números de versión. Se utiliza para arreglos dinámicos o actualizaciones de un release anterior.]]></description>
+  </versionPolicies>
+</com.ibm.rules.studio.model.decisionservice:Deployment>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="Taller/nivel_seguridad/GETTER#0">
+            <rule id="075bb16e-918e-4e04-8afb-882937ecdb85"/>
+        </vocElt>
+        <vocElt id="Siniestro">
+            <rule id="075bb16e-918e-4e04-8afb-882937ecdb85"/>
+        </vocElt>
+        <vocElt id="Taller">
+            <rule id="075bb16e-918e-4e04-8afb-882937ecdb85"/>
+        </vocElt>
+        <vocElt id="Siniestro/tipo/GETTER#0">
+            <rule id="075bb16e-918e-4e04-8afb-882937ecdb85"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="075bb16e-918e-4e04-8afb-882937ecdb85">
+            <vocElt id="Taller/nivel_seguridad/GETTER#0"/>
+            <vocElt id="Siniestro"/>
+            <vocElt id="Taller"/>
+            <vocElt id="Siniestro/tipo/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="zona_revision">
+            <rule id="075bb16e-918e-4e04-8afb-882937ecdb85"/>
+        </param>
+        <param id="Siniestro">
+            <rule id="075bb16e-918e-4e04-8afb-882937ecdb85"/>
+        </param>
+        <param id="Taller">
+            <rule id="075bb16e-918e-4e04-8afb-882937ecdb85"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="075bb16e-918e-4e04-8afb-882937ecdb85">
+            <param id="zona_revision"/>
+            <param id="Siniestro"/>
+            <param id="Taller"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="89352ac5-c350-4d5e-a8e2-4adac73d1c68">
+            <rule id="075bb16e-918e-4e04-8afb-882937ecdb85"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/granizo/bom/modelo1_es_ES.voc" id="50abb4c1-fd25-4e1e-8165-a437a39ef71e">
+            <rule id="075bb16e-918e-4e04-8afb-882937ecdb85"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/granizo/reglas/variables.var" id="89352ac5-c350-4d5e-a8e2-4adac73d1c68"/>
+        <resource file="/granizo/reglas/tabla_taller_revision.dta" id="075bb16e-918e-4e04-8afb-882937ecdb85"/>
+    </resourceTable>
+</impactTables>

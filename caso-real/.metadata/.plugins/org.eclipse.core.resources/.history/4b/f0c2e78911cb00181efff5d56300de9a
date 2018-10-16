@@ -1,0 +1,27 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/granizo//granizo-xom"
+property uuid "7f98b4ec-a10f-48b1-92d6-96701c6a7c60"
+
+public class Auto
+{
+    public int año;
+    public string matricula;
+    public string modelo;
+    public Auto();
+}
+
+public class Siniestro
+{
+    public int idSiniestro;
+    public string tipoSiniestro;
+    public Siniestro();
+}
+
+public class Taller
+{
+    public string id_taller;
+    public int nivel_seguridad;
+    public Taller();
+}
+

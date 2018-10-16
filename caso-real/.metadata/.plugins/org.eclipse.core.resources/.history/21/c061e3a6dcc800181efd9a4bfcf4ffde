@@ -1,0 +1,28 @@
+
+
+public class Granizo {
+	/*
+	 * TODOS LOS VALORES SON A MODO DE EJEMPLO.
+	 * NO REPRESENTAN LA REALIDAD 100%
+	 */
+	private boolean concepto; //False - contra todo riesgo / True - contra terceros
+	private float montoDisponible;
+
+	public Granizo(boolean concepto, float montoDisponible) {
+		this.concepto = concepto;
+		this.montoDisponible = montoDisponible;
+	}
+	public float getMontoDisponible() {
+		return montoDisponible;
+	}
+	public boolean isConcepto() {
+		return concepto;
+	}
+	public void setConcepto(boolean concepto) {
+		this.concepto = concepto;
+	}
+	public void setMontoDisponible(float montoDisponible) {
+		this.montoDisponible = montoDisponible;
+	}
+	
+}

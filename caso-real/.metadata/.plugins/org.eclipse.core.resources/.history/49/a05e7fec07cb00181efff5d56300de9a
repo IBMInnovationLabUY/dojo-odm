@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>variables</name>
+  <uuid>89352ac5-c350-4d5e-a8e2-4adac73d1c68</uuid>
+  <variables name="tipo_liquidación" type="java.lang.Boolean" initialValue="false" verbalization="tipo de liquidación"/>
+  <variables name="Auto" type="Auto" initialValue="" verbalization="el auto"/>
+  <variables name="Siniestro" type="Siniestro" initialValue="" verbalization="el siniestro"/>
+</ilog.rules.studio.model.base:VariableSet>

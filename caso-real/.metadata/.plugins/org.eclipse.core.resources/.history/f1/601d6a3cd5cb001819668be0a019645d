@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>granizo-taller</name>
+  <uuid>6c771a8b-02c6-42b7-a956-7a6d0fc926b2</uuid>
+  <locale>es_ES</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_0"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="task_1" Ordering="Default"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="task_0"/>
+      <TaskNode Identifier="node_1" Task="task_1"/>
+    </NodeList>
+    <TransitionList/>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="es_ES">
+      <Data Name="node_1#width">102.0</Data>
+      <Data Name="node_1#height">40.0</Data>
+      <Data Name="node_0#name">node_0</Data>
+      <Data Name="node_0#height">21.0</Data>
+      <Data Name="node_0#width">21.0</Data>
+      <Data Name="node_1#name">node_1</Data>
+      <Data Name="node_0#x">-434.0</Data>
+      <Data Name="node_0#y">-253.0</Data>
+      <Data Name="node_1#x">-436.0</Data>
+      <Data Name="node_1#y">-182.0</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

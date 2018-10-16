@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable/>
+    <vocTable/>
+    <ruleParamTable>
+        <param id="tipo_liquidación">
+            <rule id="6c771a8b-02c6-42b7-a956-7a6d0fc926b2"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="6c771a8b-02c6-42b7-a956-7a6d0fc926b2">
+            <param id="tipo_liquidación"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="89352ac5-c350-4d5e-a8e2-4adac73d1c68">
+            <rule id="6c771a8b-02c6-42b7-a956-7a6d0fc926b2"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable/>
+    <resourceTable>
+        <resource file="/granizo/reglas/variables.var" id="89352ac5-c350-4d5e-a8e2-4adac73d1c68"/>
+        <resource file="/granizo/reglas/granizo-taller.rfl" id="6c771a8b-02c6-42b7-a956-7a6d0fc926b2"/>
+    </resourceTable>
+</impactTables>

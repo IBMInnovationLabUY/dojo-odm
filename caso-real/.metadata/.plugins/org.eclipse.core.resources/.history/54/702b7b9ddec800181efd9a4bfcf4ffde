@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>regla_1</name>
+  <uuid>41bdc7bc-ca23-4be8-ab4d-deb11de37737</uuid>
+  <locale>es_ES</locale>
+  <definition><![CDATA[si 
+	 la id de 'el auto' es 100 y el tipo de 'el siniestro' es "granizo" 
+entonces]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

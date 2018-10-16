@@ -1,0 +1,26 @@
+
+
+public class Siniestro {
+	/*
+	 * TODOS LOS VALORES SON A MODO DE EJEMPLO.
+	 * NO REPRESENTAN LA REALIDAD 100%
+	 */
+	private String tipoSiniestro;
+	private int idSiniestro;
+
+	public Siniestro() {
+	}
+	public String getTipoSiniestro() {
+		return tipoSiniestro;
+	}
+	public int getIdSiniestro() {
+		return idSiniestro;
+	}
+	public void setIdSiniestro(int idSiniestro) {
+		this.idSiniestro = idSiniestro;
+	}
+	public void setTipoSiniestro(String tipoSiniestro) {
+		this.tipoSiniestro = tipoSiniestro;
+	}
+	
+}

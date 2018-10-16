@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="Auto">
+            <rule id="41bdc7bc-ca23-4be8-ab4d-deb11de37737"/>
+        </vocElt>
+        <vocElt id="Auto/matricula/GETTER#0">
+            <rule id="41bdc7bc-ca23-4be8-ab4d-deb11de37737"/>
+        </vocElt>
+        <vocElt id="Taller/nivel_seguridad/GETTER#0">
+            <rule id="8b414e64-60c3-4874-82d4-a7bc76557c6a"/>
+        </vocElt>
+        <vocElt id="Siniestro">
+            <rule id="8b414e64-60c3-4874-82d4-a7bc76557c6a"/>
+            <rule id="41bdc7bc-ca23-4be8-ab4d-deb11de37737"/>
+        </vocElt>
+        <vocElt id="Taller">
+            <rule id="8b414e64-60c3-4874-82d4-a7bc76557c6a"/>
+        </vocElt>
+        <vocElt id="Siniestro/tipo/GETTER#0">
+            <rule id="8b414e64-60c3-4874-82d4-a7bc76557c6a"/>
+            <rule id="41bdc7bc-ca23-4be8-ab4d-deb11de37737"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="8b414e64-60c3-4874-82d4-a7bc76557c6a">
+            <vocElt id="Taller/nivel_seguridad/GETTER#0"/>
+            <vocElt id="Siniestro"/>
+            <vocElt id="Taller"/>
+            <vocElt id="Siniestro/tipo/GETTER#0"/>
+        </rule>
+        <rule id="41bdc7bc-ca23-4be8-ab4d-deb11de37737">
+            <vocElt id="Auto"/>
+            <vocElt id="Auto/matricula/GETTER#0"/>
+            <vocElt id="Siniestro"/>
+            <vocElt id="Siniestro/tipo/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="Auto">
+            <rule id="41bdc7bc-ca23-4be8-ab4d-deb11de37737"/>
+        </param>
+        <param id="tipo_liquidación">
+            <rule id="41bdc7bc-ca23-4be8-ab4d-deb11de37737"/>
+        </param>
+        <param id="zona_revision">
+            <rule id="8b414e64-60c3-4874-82d4-a7bc76557c6a"/>
+        </param>
+        <param id="Siniestro">
+            <rule id="8b414e64-60c3-4874-82d4-a7bc76557c6a"/>
+            <rule id="41bdc7bc-ca23-4be8-ab4d-deb11de37737"/>
+        </param>
+        <param id="Taller">
+            <rule id="8b414e64-60c3-4874-82d4-a7bc76557c6a"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="8b414e64-60c3-4874-82d4-a7bc76557c6a">
+            <param id="zona_revision"/>
+            <param id="Siniestro"/>
+            <param id="Taller"/>
+        </rule>
+        <rule id="41bdc7bc-ca23-4be8-ab4d-deb11de37737">
+            <param id="Auto"/>
+            <param id="tipo_liquidación"/>
+            <param id="Siniestro"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="89352ac5-c350-4d5e-a8e2-4adac73d1c68">
+            <rule id="8b414e64-60c3-4874-82d4-a7bc76557c6a"/>
+            <rule id="41bdc7bc-ca23-4be8-ab4d-deb11de37737"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/granizo/bom/modelo1_es_ES.voc" id="50abb4c1-fd25-4e1e-8165-a437a39ef71e">
+            <rule id="41bdc7bc-ca23-4be8-ab4d-deb11de37737"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/granizo/reglas/tipo_siniestro.brl" id="41bdc7bc-ca23-4be8-ab4d-deb11de37737"/>
+        <resource file="/granizo/reglas/analisis_taller.brl" id="8b414e64-60c3-4874-82d4-a7bc76557c6a"/>
+    </resourceTable>
+</impactTables>

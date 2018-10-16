@@ -1,0 +1,9 @@
+
+public class Taller {
+	private String id-taller;
+	private boolean nivel_seguridad; //0 - no seguro 1 - revisión nivel 1 2 - no requiere revisión
+	public Taller() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

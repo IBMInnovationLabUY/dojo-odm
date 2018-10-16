@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>granizo-taller</name>
+  <uuid>6c771a8b-02c6-42b7-a956-7a6d0fc926b2</uuid>
+  <locale>es_ES</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_7"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="tipo_siniestro" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="41bdc7bc-ca23-4be8-ab4d-deb11de37737"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="tabla_taller_revision" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="075bb16e-918e-4e04-8afb-882937ecdb85"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_5">
+        <Actions Language="bal"><![CDATA[asignar a 'tipo de liquidación' falso; asignar a 'la zona de revisión' 0;]]></Actions>
+      </StopTask>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_2" Task="tipo_siniestro"/>
+      <TaskNode Identifier="node_3" Task="tabla_taller_revision"/>
+      <TaskNode Identifier="node_5" Task="task_5"/>
+      <TaskNode Identifier="node_9" Task="task_5"/>
+      <TaskNode Identifier="node_10" Task="task_7"/>
+      <TaskNode Identifier="node_0" Task="task_5"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_1" Source="node_2" Target="node_3"/>
+      <Transition Identifier="transition_3" Source="node_2" Target="node_5">
+        <Conditions Language="bal"><![CDATA[el tipo de 'el siniestro' es "granizo" ]]></Conditions>
+      </Transition>
+      <Transition Identifier="transition_8" Source="node_3" Target="node_9"/>
+      <Transition Identifier="transition_9" Source="node_3" Target="node_0">
+        <Conditions Language="bal"><![CDATA[el nivel seguridad de 'el taller' es menor o igual que 1]]></Conditions>
+      </Transition>
+      <Transition Identifier="transition_10" Source="node_10" Target="node_2"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="es_ES">
+      <Data Name="node_2#height">53.402344</Data>
+      <Data Name="node_3#height">68.103516</Data>
+      <Data Name="node_0#height">23.0</Data>
+      <Data Name="node_9#x">168.0</Data>
+      <Data Name="node_5#name">node_2</Data>
+      <Data Name="node_9#width">23.0</Data>
+      <Data Name="node_9#y">304.00586</Data>
+      <Data Name="transition_3#label">granizada</Data>
+      <Data Name="node_2#name">node_2</Data>
+      <Data Name="node_5#height">22.0</Data>
+      <Data Name="node_10#height">21.0</Data>
+      <Data Name="node_9#height">23.0</Data>
+      <Data Name="node_2#width">102.0</Data>
+      <Data Name="node_10#x">69.5</Data>
+      <Data Name="node_10#y">10.5</Data>
+      <Data Name="node_0#width">23.0</Data>
+      <Data Name="node_3#y">208.4541</Data>
+      <Data Name="node_5#x">10.999998</Data>
+      <Data Name="node_5#y">208.4541</Data>
+      <Data Name="node_5#width">21.999996</Data>
+      <Data Name="node_0#x">89.0</Data>
+      <Data Name="node_0#y">304.00586</Data>
+      <Data Name="node_2#x">69.5</Data>
+      <Data Name="node_2#y">97.70117</Data>
+      <Data Name="node_3#x">128.0</Data>
+      <Data Name="transition_9#label">seguridad != 0</Data>
+      <Data Name="node_3#width">102.0</Data>
+      <Data Name="node_10#name">node_0</Data>
+      <Data Name="node_9#name">node_2</Data>
+      <Data Name="node_0#name">node_2</Data>
+      <Data Name="node_10#width">21.0</Data>
+      <Data Name="node_3#name">node_3</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

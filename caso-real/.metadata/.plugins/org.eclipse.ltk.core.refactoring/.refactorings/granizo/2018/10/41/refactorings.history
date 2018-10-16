@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;granizo/reglas/regla_1.brl&apos; to &apos;tipo_siniestro.brl&apos;" description="Rename resource &apos;regla_1.brl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="reglas/regla_1.brl" name="tipo_siniestro.brl" stamp="1539009493433" updateReferences="true"/>
+</session>

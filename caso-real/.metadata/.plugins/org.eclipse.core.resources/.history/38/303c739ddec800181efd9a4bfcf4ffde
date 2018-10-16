@@ -1,0 +1,18 @@
+# Vocabulary Properties
+uuid = 40e257bc-fd7c-4998-9018-67877ca454a9
+
+# Auto
+Auto#concept.label = auto
+Auto.año#phrase.action = cambiar el año {this, PARTITIVE_ARTICLE} a {año}
+Auto.año#phrase.navigation = {año} {this, PARTITIVE_ARTICLE}
+Auto.id#phrase.action = cambiar la id {this, PARTITIVE_ARTICLE} a {id}
+Auto.id#phrase.navigation = {id} {this, PARTITIVE_ARTICLE}
+Auto.modelo#phrase.action = cambiar el modelo {this, PARTITIVE_ARTICLE} a {modelo}
+Auto.modelo#phrase.navigation = {modelo} {this, PARTITIVE_ARTICLE}
+
+# Siniestro
+Siniestro#concept.label = siniestro
+Siniestro.idSiniestro#phrase.action = cambiar la id siniestro {this, PARTITIVE_ARTICLE} a {id siniestro}
+Siniestro.idSiniestro#phrase.navigation = {id siniestro} {this, PARTITIVE_ARTICLE}
+Siniestro.tipoSiniestro#phrase.action = cambiar el tipo {this, PARTITIVE_ARTICLE} a {tipo siniestro}
+Siniestro.tipoSiniestro#phrase.navigation = el tipo {this, PARTITIVE_ARTICLE}

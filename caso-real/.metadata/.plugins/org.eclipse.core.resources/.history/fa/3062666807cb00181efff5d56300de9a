@@ -1,0 +1,10 @@
+
+public class Taller {
+	private String id-taller;
+	private boolean nivel_seguridad; //True - seguro
+	
+	public Taller() {
+		// TODO Auto-generated constructor stub
+	}
+	
+}

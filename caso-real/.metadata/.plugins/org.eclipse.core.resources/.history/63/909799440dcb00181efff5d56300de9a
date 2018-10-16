@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="operacion_1" targetRuleProjectName="granizo">
+  <name>operacion_1</name>
+  <uuid>a916840e-eee3-498a-acdd-7f284f2e418b</uuid>
+  <referencedVariables variableName="Auto" variableSetName="variables">
+    <variableSet href="../reglas/variables.var#89352ac5-c350-4d5e-a8e2-4adac73d1c68"/>
+  </referencedVariables>
+  <referencedVariables variableName="Siniestro" variableSetName="variables">
+    <variableSet href="../reglas/variables.var#89352ac5-c350-4d5e-a8e2-4adac73d1c68"/>
+  </referencedVariables>
+  <referencedVariables variableName="tipo_liquidación" variableSetName="variables" direction="OUT">
+    <variableSet href="../reglas/variables.var#89352ac5-c350-4d5e-a8e2-4adac73d1c68"/>
+  </referencedVariables>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="operacion_1_extractor" validator="Validador predeterminado"/>
+  <targetRuleProject href="../../granizo#c002818f-3b15-4166-893f-8bc9f1816ea5"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

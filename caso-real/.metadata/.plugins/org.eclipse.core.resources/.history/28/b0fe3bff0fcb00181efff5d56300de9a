@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>analisis_taller</name>
+  <uuid>8b414e64-60c3-4874-82d4-a7bc76557c6a</uuid>
+  <locale>es_ES</locale>
+  <definition><![CDATA[Si
+    el nivel seguridad de 'el taller' es 0 
+entonces
+    asignar a 'la zona de revisión' 0 ; 
+    ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

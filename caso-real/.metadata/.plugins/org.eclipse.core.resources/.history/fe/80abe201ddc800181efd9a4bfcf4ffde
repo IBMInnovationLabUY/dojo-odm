@@ -1,0 +1,6 @@
+
+public class Auto {
+	private String modelo;
+	private int año;
+	private int id; //bien podría ser la matrícula
+}

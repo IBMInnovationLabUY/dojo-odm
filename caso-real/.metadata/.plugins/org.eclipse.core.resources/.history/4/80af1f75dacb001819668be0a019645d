@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="despliegue_general" managingXom="true">
+  <name>despliegue_general</name>
+  <uuid>26d32308-6ef7-4351-8bf4-7d33e57423d5</uuid>
+  <targets label="Testing"/>
+  <operations operationName="operacion_1">
+    <operation href="operacion_1.dop#a916840e-eee3-498a-acdd-7f284f2e418b"/>
+    <properties key="ruleset.version">
+      <value><![CDATA[1.0]]></value>
+    </properties>
+  </operations>
+  <operations operationName="talleres">
+    <operation href="talleres.dop#d7c05c12-992d-473d-a818-dd1d1595fd9c"/>
+    <properties key="ruleset.version">
+      <value><![CDATA[1.0]]></value>
+    </properties>
+  </operations>
+  <versionPolicies label="Incrementar los números de versión secundaria" ruleset="INCREMENT_MINOR" default="true" recurrent="true">
+    <description><![CDATA[Actualiza la versión secundaria para cada conjunto de reglas. Hace que la nueva versión esté disponible pero conserva las versiones anteriores.]]></description>
+  </versionPolicies>
+  <versionPolicies label="Utilizar los números de versión base" recurrent="true">
+    <description><![CDATA[Utiliza los números proporcionados en la configuración de despliegue. Sustituye la versión más reciente de cada conjunto de reglas con este release. Se utiliza para arreglos dinámicos o desarrollo.]]></description>
+  </versionPolicies>
+  <versionPolicies label="El usuario puede definir los números de versión" ruleset="MANUAL" recurrent="true">
+    <description><![CDATA[Le permite especificar sus propios números de versión. Se utiliza para arreglos dinámicos o actualizaciones de un release anterior.]]></description>
+  </versionPolicies>
+</com.ibm.rules.studio.model.decisionservice:Deployment>

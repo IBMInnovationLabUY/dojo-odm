@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="tabla_taller_revision" targetRuleProjectName="granizo">
+  <name>tabla_taller_revision</name>
+  <uuid>04d4d77f-27c9-47be-8525-860d4ceab08e</uuid>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="tabla_taller_revision_extractor" validator="Validador predeterminado"/>
+  <targetRuleProject href="../../granizo#c002818f-3b15-4166-893f-8bc9f1816ea5"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>granizo-taller</name>
+  <uuid>6c771a8b-02c6-42b7-a956-7a6d0fc926b2</uuid>
+  <locale>es_ES</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_7"/>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="tipo_siniestro" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="41bdc7bc-ca23-4be8-ab4d-deb11de37737"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="analisis_taller" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="8b414e64-60c3-4874-82d4-a7bc76557c6a"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="tabla_taller_revision" Ordering="Default">
+        <RuleList>
+          <Rule Uuid="075bb16e-918e-4e04-8afb-882937ecdb85"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_5">
+        <Actions/>
+      </StopTask>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_2" Task="tipo_siniestro"/>
+      <TaskNode Identifier="node_5" Task="task_5"/>
+      <TaskNode Identifier="node_10" Task="task_7"/>
+      <TaskNode Identifier="node_0" Task="analisis_taller"/>
+      <TaskNode Identifier="node_1" Task="tabla_taller_revision"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_3" Source="node_2" Target="node_1">
+        <Conditions Language="bal"><![CDATA['tipo de liquidación' es verdadero ]]></Conditions>
+      </Transition>
+      <Transition Identifier="transition_10" Source="node_10" Target="node_2"/>
+      <Transition Identifier="transition_0" Source="node_2" Target="node_0"/>
+      <Transition Identifier="transition_1" Source="node_0" Target="node_1"/>
+      <Transition Identifier="transition_2" Source="node_1" Target="node_5"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="es_ES">
+      <Data Name="node_2#height">53.402344</Data>
+      <Data Name="node_1#height">68.103516</Data>
+      <Data Name="node_0#height">53.402344</Data>
+      <Data Name="node_5#name">node_2</Data>
+      <Data Name="transition_3#label">liquidación verdadera</Data>
+      <Data Name="node_2#name">node_2</Data>
+      <Data Name="node_10#name">node_0</Data>
+      <Data Name="node_5#height">20.000013</Data>
+      <Data Name="node_10#height">21.0</Data>
+      <Data Name="node_1#width">102.0</Data>
+      <Data Name="node_2#width">102.0</Data>
+      <Data Name="node_10#x">89.0</Data>
+      <Data Name="node_10#y">10.5</Data>
+      <Data Name="node_0#width">102.0</Data>
+      <Data Name="node_5#x">89.0</Data>
+      <Data Name="node_5#y">405.9082</Data>
+      <Data Name="node_5#width">19.999998</Data>
+      <Data Name="node_10#width">21.0</Data>
+      <Data Name="node_0#x">51.0</Data>
+      <Data Name="node_0#y">201.10352</Data>
+      <Data Name="node_1#x">89.0</Data>
+      <Data Name="node_2#x">89.0</Data>
+      <Data Name="node_1#y">311.85645</Data>
+      <Data Name="node_2#y">97.70117</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow>
+</rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

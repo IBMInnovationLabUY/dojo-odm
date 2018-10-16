@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<teamservers>
+<teamserver>
+<target dataSource="" login="odmAdmin" url="http://localhost:9060/decisioncenter"/>
+<entry baseType="B2XMapping" checksum="716867644" projectName="granizo" qualifiedName="modelo1" sourceCS="4AEDED02DD66D50668DBAFA36FB9AB8E" targetCS="716867644" type="B2XMapping" uuid="a6aed53a-6c42-4a51-93a6-a0d6fc106430"/>
+<entry baseType="B2XMapping" checksum="1988566933" projectName="granizo" qualifiedName="primer modelo" sourceCS="F0E6ADB6E1063304C71D8963880FA106" targetCS="1988566933" type="B2XMapping" uuid="f4864a6f-af60-4c6a-a96f-2f93966c2933"/>
+<entry baseType="BusinessObjectModel" checksum="716867644" projectName="granizo" qualifiedName="modelo1" sourceCS="A42858A50CAA870FE38B0F97D782E645" targetCS="716867644" type="BusinessObjectModel" uuid="7676e002-17ad-439d-b16a-762054a4b9eb"/>
+<entry baseType="DecisionOperation" checksum="2061215123" projectName="granizo" qualifiedName="operacion_1" sourceCS="1401BE2AFB6B71BC52822604F50A01A1" targetCS="2061215123" type="DecisionOperation" uuid="a916840e-eee3-498a-acdd-7f284f2e418b"/>
+<entry baseType="DecisionOperation" checksum="2132047674" projectName="granizo" qualifiedName="talleres" sourceCS="46B7AB741B5874C2D6D61176FB1C7803" targetCS="2132047674" type="DecisionOperation" uuid="d7c05c12-992d-473d-a818-dd1d1595fd9c"/>
+<entry baseType="DeploymentConfiguration" checksum="2954759443" projectName="granizo" qualifiedName="despliegue_1" sourceCS="0FFC0E65B9C3CB4B2FD0D29F8232D6CF" targetCS="2954759443" type="DeploymentConfiguration" uuid="bbb1a85f-f898-413f-b98f-d57e27c070d8"/>
+<entry baseType="DeploymentConfiguration" checksum="689396905" projectName="granizo" qualifiedName="despliegue_2" sourceCS="78AB390CDB32BF1B1D062B23DDC00552" targetCS="689396905" type="DeploymentConfiguration" uuid="aaaba94c-b9a0-4e1c-b635-56b7e66a9a7a"/>
+<entry baseType="Resource" checksum="2977781481" projectName="granizo" qualifiedName="META-INF/deployment.xml" sourceCS="8743EC9732F6CFEA5C6EB499E977346C" targetCS="2977781481" type="Resource" uuid="META-INF/deployment.xml"/>
+<entry baseType="Resource" checksum="3729304026" projectName="granizo" qualifiedName="xom-libraries/granizo-xom.zip" sourceCS="886DF587AF8143353330772CBC587676" targetCS="3729304026" type="Resource" uuid="xom-libraries/granizo-xom.zip"/>
+<entry baseType="Ruleflow" checksum="1137681564" projectName="granizo" qualifiedName="granizo-taller" sourceCS="7CE8CBB36A79C3B86FDCD22E58862035" targetCS="1137681564" type="Ruleflow" uuid="6c771a8b-02c6-42b7-a956-7a6d0fc926b2"/>
+<entry baseType="RuleProjectInfo" checksum="1897041203" projectName="granizo" qualifiedName="granizo" sourceCS="F143B33AD416B1CE5A20B5710AFD605C" targetCS="1897041203" type="RuleProjectInfo" uuid="c002818f-3b15-4166-893f-8bc9f1816ea5"/>
+<entry baseType="VariableSet" checksum="646116178" projectName="granizo" qualifiedName="variables" sourceCS="D97066268F617A55EA72B4FF299D2B2B" targetCS="646116178" type="VariableSet" uuid="89352ac5-c350-4d5e-a8e2-4adac73d1c68"/>
+<entry baseType="Vocabulary" checksum="716867644" projectName="granizo" qualifiedName="modelo1_es_ES" sourceCS="38A2BDB896D24AE169D4867FCA5A7EC0" targetCS="716867644" type="Vocabulary" uuid="50abb4c1-fd25-4e1e-8165-a437a39ef71e"/>
+</teamserver>
+</teamservers>
